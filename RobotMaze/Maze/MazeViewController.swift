@@ -30,7 +30,7 @@ class MazeViewController: UIViewController {
             print("Error: Maze contains no rows or columns!")
             return
         }
-        addSimpleRobot()
+        addComplexRobot()
         addStar()
     }
 
