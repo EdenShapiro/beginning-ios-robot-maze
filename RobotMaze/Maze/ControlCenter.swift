@@ -44,7 +44,7 @@ class ControlCenter {
         // Three-way Path - else-if statements
 
         // TODO: If the robot encounters a three way junction and there IS a wall ahead, it should randomly rotate right or left. Uncomment the code below.
-//        if isThreeWayJunction && isWall {
+//        if isThreeWayJunction && robotIsBlocked {
 //            randomlyRotateRightOrLeft(myRobot)
 //        }
         
@@ -72,11 +72,11 @@ class ControlCenter {
         // Step 4b
         // Uncomment below to test turnTowardClearPath()
         
-//        else if !isThreeWayJunction && !isWall {
+//        else if !isThreeWayJunction && !robotIsBlocked {
 //            robot.move()
 //        }
 //            
-//        else if !isThreeWayJunction && isWall {
+//        else if !isThreeWayJunction && robotIsBlocked {
 //            randomlyRotateRightOrLeft(robot)
 //        }
     }
