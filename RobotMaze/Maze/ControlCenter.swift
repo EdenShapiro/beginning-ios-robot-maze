@@ -14,12 +14,12 @@ class ControlCenter {
     func moveComplexRobot(myRobot: ComplexRobotObject) {
         
         // Step 1c
-        // TODO: Call the method, isFacingWall(), and define a constant to be equal to its return value. You can use the suggested constant name below--uncomment the code and add the method call.
+        // TODO: Call the function, isFacingWall(), and define a constant to be equal to its return value. You can use the suggested constant name below--uncomment the code and add the function call.
 //        let robotIsBlocked =
         
         
         // Step 1d
-        // TODO: Test the isFacingWall() method. Be sure to comment out or delete your test code once you are finished testing!
+        // TODO: Test the isFacingWall() function. Be sure to comment out or delete your test code once you are finished testing!
         
         
         // Step 2c
@@ -126,7 +126,7 @@ class ControlCenter {
 
         
         // Step 2b
-        // TODO: Test the checkWalls method.
+        // TODO: Test the checkWalls function.
         
         // TODO: Return a tuple representing the bools for top, right, down & left, and the number of walls
         // This tuple is a placeholder
