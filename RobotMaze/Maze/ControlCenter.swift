@@ -97,7 +97,7 @@ class ControlCenter {
 //        }
         
         // Step 1b
-        // TODO: Return a Bool that represents whether the robot is currently facing a wall
+        // TODO: Return a Bool that represents whether the robot is currently facing a wall. You will need to change the placeholder return statement below.
         
         // Placeholder
         return false
