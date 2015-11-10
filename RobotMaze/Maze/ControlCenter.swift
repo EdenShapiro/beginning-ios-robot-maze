@@ -73,11 +73,11 @@ class ControlCenter {
         // Uncomment below to test turnTowardClearPath()
         
 //        else if !isThreeWayJunction && !robotIsBlocked {
-//            robot.move()
+//            myRobot.move()
 //        }
 //            
 //        else if !isThreeWayJunction && robotIsBlocked {
-//            randomlyRotateRightOrLeft(robot)
+//            randomlyRotateRightOrLeft(myRobot)
 //        }
     }
     
