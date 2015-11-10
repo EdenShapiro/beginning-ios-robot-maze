@@ -64,9 +64,7 @@ class ControlCenter {
         // Step 4d
         // Dead end - else-if statements
         
-        // TODO: If the robot encounters a dead end and there is NO wall ahead it should move forward.
-        
-        // TODO: If the robot encounters a dead end and there IS a wall ahead it should rotateRight().
+        // TODO: If the robot encounters a dead end, check whether it is blocked. If it is blocked, it should rotate. If it isn't blocked, it should move forward. Use a nested if statement here.
         
 
         // Step 4b
