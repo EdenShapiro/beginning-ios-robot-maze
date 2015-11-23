@@ -53,14 +53,7 @@ class MazeViewController: UIViewController {
             })
         }
     }
-    
-    func addSimpleRobot() {
-        let controlCenter = ControlCenter()
-        let simpleRobot = SimpleRobotObject(location: MazeLocation(x: 3, y: 2), direction: MazeDirection.Up, imagePath: "robot.png")
-        mazeController.addMazeObject(simpleRobot)
-        controlCenter.moveSimpleRobot(simpleRobot)
-    }
-    
+        
     func addComplexRobot() {
         let controlCenter = ControlCenter()
         let complexRobot = ComplexRobotObject(location: MazeLocation(x: 3, y: 2), direction: MazeDirection.Up)
